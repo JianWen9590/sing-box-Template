@@ -8,7 +8,7 @@
   "experimental": {
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
-      "external_ui": "/etc/sing-box/ui",
+      "external_ui": "ui",
       "secret": "",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🚀 节点选择",
@@ -16,7 +16,7 @@
     },
   "cache_file": {
     "enabled": true,
-    "path": "/etc/sing-box/cache.db",
+    "path": "cache.db",
     "store_fakeip": false
     }
   },
@@ -25,7 +25,7 @@
  {
    "servers": 
    [
-     {"tag": "dns_direct", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 全球直连"},
+     {"tag": "dns_direct", "address": "223.6.6.6", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 全球直连"},
      {"tag": "dns_proxy", "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🚀 节点选择"}
    ],
    "rules": 
