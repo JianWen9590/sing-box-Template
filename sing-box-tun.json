@@ -74,7 +74,7 @@
     { "tag": "🤖 OpenAI", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
     { "tag": "🍀 Google", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
     { "tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
-    { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择", "🎯 全球直连"] },
+    { "tag": "Microsoft", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择", "🎯 全球直连"] },
     { "tag": "🐬 OneDrive", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
     { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
     { "tag": "🎥 Netflix", "type": "selector", "outbounds": ["🚀 节点选择", "🐸 手动切换", "🇺🇲 美国节点", "🇯🇵 日本节点", "加拿大节点", "♻️ 自动选择"] },
@@ -105,7 +105,6 @@
      {"domain": ["movie-pilot.org", "lightlayer.net", "nodeseek.com", "wallhaven.cc", "missav.com", "wikipedia.org", "xacg.nl", "xacg.cloud", "xacg.fun", "grok.com", "bt7086.com", "ovofast.com", "qichiyu.com", "netok.xyz", "pttime.org", "ybfl.xyz", "bulianglin.com", "v2rayssr.com", "sagernet.org"], "outbound": "🚀 节点选择"},
      {"rule_set": "geosite-private", "outbound": "🎯 全球直连"},
      {"rule_set": "geosite-ads", "outbound": "block-out"},
-     {"rule_set": "geosite-gfw", "outbound": "🚀 节点选择"},
      {"rule_set": "geosite-chat", "outbound": "🤖 OpenAI"},
      {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
      {"rule_set": "geosite-github", "outbound": "👨‍💻 Github"},
@@ -115,7 +114,8 @@
      {"rule_set": ["geosite-netflix", "geoip-netflix"], "outbound": "🎥 Netflix"},
      {"rule_set": ["geosite-apple", "geoip-apple"], "outbound": "🍏 Apple"},
      {"rule_set": "geosite-onedrive", "outbound": "🐬 OneDrive"},
-     {"rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft"},
+     {"rule_set": "geosite-microsoft", "outbound": "Microsoft"},
+     {"rule_set": "geosite-gfw", "outbound": "🚀 节点选择"},
      {"rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
    ],
     
