@@ -103,7 +103,7 @@
      {"clash_mode": "direct", "outbound": "🎯 全球直连"},
      {"clash_mode": "global", "outbound": "GLOBAL"},
      {"domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连"},
-     {"domain": ["movie-pilot.org", "lightlayer.net", "nodeseek.com", "wallhaven.cc", "missav.com", "wikipedia.org", "xacg.nl", "xacg.cloud", "xacg.fun", "grok.com", "bt7086.com", "ovofast.com", "qichiyu.com", "netok.xyz", "pttime.org", "ybfl.xyz", "bulianglin.com", "v2rayssr.com", "sagernet.org"], "outbound": "🚀 节点选择"},
+     {"domain": ["linux.do", "movie-pilot.org", "lightlayer.net", "nodeseek.com", "wallhaven.cc", "missav.com", "wikipedia.org", "xacg.nl", "xacg.cloud", "xacg.fun", "grok.com", "bt7086.com", "ovofast.com", "qichiyu.com", "netok.xyz", "pttime.org", "ybfl.xyz", "bulianglin.com", "v2rayssr.com", "sagernet.org"], "outbound": "🚀 节点选择"},
      {"rule_set": "geosite-private", "outbound": "🎯 全球直连"},
      {"rule_set": "geosite-ads", "outbound": "block-out"},
      {"rule_set": "geosite-chat", "outbound": "🤖 OpenAI"},
